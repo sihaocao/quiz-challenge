@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>National Dishes Quiz App</title>
+        <meta name="description" content="Test your national dish knowledge of countries around the world">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+        <link href="index.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header role="banner">
+            <div class="header-image">
+                <a href="index.html">
+                    <img class="logo" src = "https://i.imgur.com/wzo0NNW.png" alt = "world flags in a globe shape" />
+                </a>
+            </div>
+            <div class="header-stats">
+                <ul>
+                    <li>Question: <span class="questionNumber">0</span> of 10</li>
+                    <li>Score: <span class="score">0</span></li>
+                </ul>
+            </div>
+        </header>
+        <main role="main">
+            <div class="startQuiz">
+                <h1>Do you know each country's national dish?</h1>
+                <button type="button" class="startButton">Let's Find Out!</button>
+            </div>
+            <div class="eachQuestionAnswerForm"></div>
+            </div>
+        </main>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="database.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
